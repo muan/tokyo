@@ -4,7 +4,7 @@
   "description": "It is a city.",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js"
+    "build": "submarine content site --header='Tokyo' --footer='Such city, many people.'"
   },
   "repository": {
     "type": "git",
