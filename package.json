@@ -1,0 +1,25 @@
+{
+  "name": "tokyo",
+  "version": "0.0.0",
+  "description": "It is a city.",
+  "main": "index.js",
+  "scripts": {
+    "build-page": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muan/tokyo.git"
+  },
+  "author": "Mu-An Chiou <me@muanchiou.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/muan/tokyo/issues"
+  },
+   "gh-pages-deploy": {
+    "staticpath": "site",
+    "prep": [
+      "build-page"
+    ],
+    "noprompt": false
+  },
+}
