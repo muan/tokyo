@@ -4,7 +4,7 @@
   "description": "It is a city.",
   "main": "index.js",
   "scripts": {
-    "build-page": "node index.js"
+    "build": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,11 +15,11 @@
   "bugs": {
     "url": "https://github.com/muan/tokyo/issues"
   },
-   "gh-pages-deploy": {
+  "gh-pages-deploy": {
     "staticpath": "site",
     "prep": [
-      "build-page"
+      "build"
     ],
     "noprompt": false
-  },
+  }
 }
