@@ -4,7 +4,8 @@
   "description": "It is a city.",
   "main": "index.js",
   "scripts": {
-    "build": "submarine content site --header='Tokyo' --footer='Such city, many people.'"
+    "build": "submarine content site --header='Tokyo' --footer='Such city, many people.'",
+    "deploy": "gh-pages-deploy"
   },
   "repository": {
     "type": "git",
